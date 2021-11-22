@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Note from "./components/Note";
+
+// import some data
+import notes from "./notes";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <p>Welcome to the test site</p>
+      {notes.map(note => (
+        <Note
+          title={note.title}
+          content={note.content}
+          key={note.key}
+        />
+      ))}
+      <Footer />
     </div>
   );
 }

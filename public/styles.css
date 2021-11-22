@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: 'Patrick Hand', sans-serif;
+    /* color:#111;
+    opacity: 0.88; */
+  }
+  body {
+    background: #eee;
+    padding: 0 16px;
+  }
+  
+  header {
+    background-color: #888;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+  
+  header h1 {
+    color: #111;
+    font-weight:bold;
+  }
+  
+  footer {
+    position: absolute;
+    text-align: right;
+    bottom: 0;
+    width: 95%;
+    height: 1.5rem;
+  }
+  
+  footer p {
+    color: #aaa;
+  }
+  .note {
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    float: left;
+  }
+  .note h1 {
+    font-size: 1.1em;
+    margin-bottom: 6px;
+  }
+  .note p {
+    font-size: 1.9em;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  div.border {
+    background:transparent;
+    background-color: #dedede;
+    padding:0.3rem 0.6rem;
+    margin: 4px 4px;
+    display: inline-block;
+
+    width:240px;
+
+    border-top-left-radius: 55px 15px;
+    border-top-right-radius: 25px 65px;
+    border-bottom-right-radius: 25px 15px;
+    border-bottom-left-radius:15px 55px;
+}
+
+div.lined-thick{
+  border:solid 3px #41403E;
+  border:solid 3px #444 ;
+ }
+
+ .note-title {
+  font-size: 1.2em;
+  margin-bottom: 6px;
+  font-weight: bold;
+ }
+ 
