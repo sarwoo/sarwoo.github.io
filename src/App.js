@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <p>Welcome to the test site</p>
+      <p>Welcome to my dev-site /slash/ website. </p>
       {notes.map(note => (
         <Note
           title={note.title}
