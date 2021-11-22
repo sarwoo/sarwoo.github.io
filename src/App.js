@@ -10,7 +10,14 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <p>Welcome to my dev-site /slash/ website. </p>
+      <br/>
+      <h3>Welcome to my dev-site *slash* website. </h3>
+      <br/>
+      <p>Yeah, it's a little light on content. Sorry.</p>
+      
+      <p>Spent ages drawing it  all out and couldnt figure what colours to use, so I cut out all the bits and uploaded them to github. By some magical trickery, that worked, thanks to a tutorial from youTube. </p>
+      
+      <p> I do  have a few bad puns though...</p>
       {notes.map(note => (
         <Note
           title={note.title}
@@ -24,3 +31,4 @@ function App() {
 }
 
 export default App;
+

@@ -9,13 +9,13 @@ const notes = [
       key: 2,
       title: "Loops",
       content:
-        "How to keep a programmer in the shower forever. Show him the shampoo bottle instructions: Lather. Rinse. Repeat."
+        "How to keep a programmer in the shower forever. Show them the shampoo bottle instructions: Lather. Rinse. Repeat."
     },
     {
       key: 3,
       title: "Arrays",
       content:
-        "Q. Why did the programmer quit his job? A. Because he didn't get arrays."
+        "Q. Why did the programmer quit their job? A. Because they didn't get arrays."
     },
     {
       key: 4,
@@ -27,13 +27,13 @@ const notes = [
       key: 5,
       title: "Git",
       content:
-        "Why couldn't the programmer upload to github? Because they  had commitment issues."
+        "Why couldn't the programmer upload to github? Because they had commitment issues."
     },
     {
       key: 6,
       title: "Binary",
       content:
-        "There are 10 kinds of people. Those that  understand binary  and those that  don't."
+        "There are 10 kinds of people. Those that understand binary and those that  don't."
     }
   ];
   
